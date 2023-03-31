@@ -7,8 +7,9 @@ const getShipsAndLog = () => {
             console.log(ship['name'])
         }
     })
-
 }
+
+
 // Fetch ships data with async/await.
 const getShipsAndLogAsyncAwait = async () => {
     const data = await fetch('https://swapi.dev/api/people')
